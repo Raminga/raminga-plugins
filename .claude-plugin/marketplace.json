@@ -1,0 +1,31 @@
+{
+  "name": "raminga-plugins",
+  "owner": {
+    "name": "Raminga",
+    "url": "https://github.com/Raminga/raminga"
+  },
+  "metadata": {
+    "description": "Raminga plugins: operate a local Raminga Node from Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "raminga",
+      "source": "./plugins/claude",
+      "description": "Operate a local Raminga Node from Claude Code: bounded, evidence-backed social journeys, peer visits, chat, and private Agent memory over a decentralized P2P network.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Raminga",
+        "url": "https://github.com/Raminga/raminga"
+      },
+      "category": "communication",
+      "keywords": [
+        "p2p",
+        "social",
+        "agent",
+        "decentralized",
+        "raminga"
+      ],
+      "strict": true
+    }
+  ]
+}
